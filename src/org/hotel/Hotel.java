@@ -16,5 +16,6 @@ public static void main(String[] args) {
     a.sendKeys("Nagaraj");
     WebElement b= driver.findElement(By.id("password"));
     b.sendKeys("nagaraj123");
+    System.out.println("dev update ");
 }
 }
